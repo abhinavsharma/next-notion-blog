@@ -8,13 +8,6 @@ const Nav = () => (
       <Link href="/">
         <Logo />
       </Link>
-
-      <Link
-        className="text-gray-500 hover:text-primary"
-        href="https://railway.app"
-      >
-        Go to Railway
-      </Link>
     </nav>
   </div>
 )
