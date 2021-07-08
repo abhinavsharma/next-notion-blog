@@ -11,7 +11,7 @@ export interface Props extends NextSeoProps {
 const title = 'Abhinav\'s Blog'
 export const url = 'https://blog.abhinavsharma.com'
 const description = 'Abhinav\'s Blog'
-const image = 'https:/blog.abhinavsharma.com/og.png'
+const image = 'https:/log.abhinavsharma.com/og.png'
 
 const config: DefaultSeoProps = {
   title,
@@ -49,7 +49,9 @@ const SEO: React.FC<Props> = ({ image, ...props }) => {
 
       <Head>
         <title>{title}</title>
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
         <meta name="description" content={description} />
       </Head>
     </>
