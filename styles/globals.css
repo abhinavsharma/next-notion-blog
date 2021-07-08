@@ -44,3 +44,7 @@ body {
 .logo {
   fill: currentColor;
 }
+
+.prose {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+}
