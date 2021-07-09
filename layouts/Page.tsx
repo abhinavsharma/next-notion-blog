@@ -13,6 +13,7 @@ const Page: React.FC<Props> = (props) => {
     <>
       <SEO {...props.seo} />
       <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" />
 
       <Nav />
 
