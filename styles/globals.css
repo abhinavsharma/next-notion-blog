@@ -47,5 +47,6 @@ body {
 
 .prose {
   font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
-  line-height: 1.5 !important;
+  line-height: 1.4 !important;
+  font-size: 22px !important;
 }
