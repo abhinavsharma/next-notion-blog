@@ -54,3 +54,11 @@ body {
 .asset-wrapper {
   margin-bottom: 60px;
 }
+
+.posts .post-item {
+  display: none !important;
+}
+
+.font-bold {
+  font-weight: 500 !important;
+}
