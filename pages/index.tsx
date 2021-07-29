@@ -15,7 +15,7 @@ export interface Props {
 const Home: NextPage<Props> = ({ posts = [] }) => {
   return (
     <Page>
-      <div className="max-w-4xl px-4 mx-auto">
+      <div className="max-w-2xl px-4 mx-auto">
         <header className="py-20">
           <h1 className="text-6xl font-bold text-center">{"Abhinav's Blog"}</h1>
         </header>
@@ -23,7 +23,7 @@ const Home: NextPage<Props> = ({ posts = [] }) => {
         {posts.length === 0 ? (
           <div className="text-center text-gray-500">Pretty empty here</div>
         ) : (
-          <div className="posts max-w-4xl">
+          <div className="posts max-w-2xl">
             {posts.map((p) => (
               <PostItem key={p.id} post={p} />
             ))}
