@@ -10,7 +10,7 @@ html,
 body {
   @apply antialiased;
   @apply bg-background text-white;
-
+  background-color: #1a1a1a !important;
   min-height: 100vh;
 }
 
